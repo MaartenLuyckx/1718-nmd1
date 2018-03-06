@@ -1,0 +1,112 @@
+* {box-sizing: border-box}
+/* Navigatiebalk */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+}
+
+.tablink:hover {
+    background-color: #777;
+    transition-duration: 1s;
+}
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 200px;
+    height: 275%;
+}
+
+#Home {background-color: #be1e2d;}
+#About {background-color: #f7941d;}
+#CV {background-color: #009444;}
+#Portfolio {background-color: #1b75bc;}
+#Contact {background-color: #851E85;}
+
+/* Portfolio */
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 10px -16px;
+}
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    display: none;
+}
+ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+    color: black;
+}
+
+.show {
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+  transition-duration: 1s;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+#malu {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    width: 150px;
+}
+
+#me {
+
+    width: 200px;
+    float: left;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+h1 {
+    padding: 25px 20px;
+}
